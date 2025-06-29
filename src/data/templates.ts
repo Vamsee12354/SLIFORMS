@@ -46,7 +46,10 @@ export const templates: DocumentTemplate[] = [
         label: 'Contract Value',
         type: 'number',
         required: true,
-        placeholder: 'Enter contract value'
+        placeholder: 'Enter contract value',
+        validation: {
+          min: 0
+        }
       },
       {
         id: 'startDate',
@@ -130,7 +133,10 @@ Client Signature: ______________________ Date: ___________`,
         label: 'Bond Amount',
         type: 'number',
         required: true,
-        placeholder: 'Enter bond amount'
+        placeholder: 'Enter bond amount',
+        validation: {
+          min: 0
+        }
       },
       {
         id: 'effectiveDate',
@@ -238,7 +244,10 @@ Signature: ___________________ Date: ___________`,
         label: 'Contract Value',
         type: 'number',
         required: true,
-        placeholder: 'Enter contract value'
+        placeholder: 'Enter contract value',
+        validation: {
+          min: 0
+        }
       },
       {
         id: 'startDate',
